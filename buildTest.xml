@@ -13,9 +13,8 @@
 	<property name="testSuitePackagesPath" value="${isTestDir}"/>
 
 	<path id="junitClasspath">
-		<fileset dir="${SAGHome}/common/lib/ext" includes="enttoolkit.jar" />
-		<fileset dir="./lib" includes="**/gf.javax.mail.jar" />
-		<!--<fileset dir="${SAGHome}/common/lib" includes="**/gf.javax.mail.jar" /> -->
+		<fileset dir="${SAGHome}/common/lib/ext" includes="enttoolkit.jar" />		
+		<fileset dir="${SAGHome}/common/lib" includes="**/gf.javax.mail.jar" />
 		<fileset dir="${SAGHome}/common/lib" includes="wm-isclient.jar" />
 		<fileset dir="${SAGHome}/IntegrationServer/lib" includes="wm-isserver.jar" />
 		<fileset dir="./lib" includes="httpunit.jar" />
